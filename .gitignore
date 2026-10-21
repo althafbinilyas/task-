@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets (Keep your MongoDB credentials private)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs & Cache
+*.log
+npm-debug.log*
+.cache/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

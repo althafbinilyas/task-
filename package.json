@@ -1,0 +1,12 @@
+{
+  "name": "task-manager-project",
+  "version": "1.0.0",
+  "description": "Fullstack Task Manager with Node.js/Express/MongoDB backend and responsive frontend",
+  "scripts": {
+    "start:backend": "npm start --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:backend:mem": "npm run dev:mem --prefix backend",
+    "test:backend": "npm test --prefix backend",
+    "start:frontend": "npm start --prefix frontend"
+  }
+}
