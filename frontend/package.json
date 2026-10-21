@@ -4,6 +4,7 @@
   "description": "TaskFlow frontend interface",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "echo 'Static ready'"
   }
 }
