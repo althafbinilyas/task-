@@ -3,8 +3,8 @@
  * Communicates with the Express + MongoDB Task Manager API on http://localhost:5000
  */
 
-const API_BASE_URL = 'http://localhost:5000/api/tasks';
-const HEALTH_URL = 'http://localhost:5000/';
+const API_BASE_URL = 'https://task-fpwj.onrender.com/api/tasks';
+const HEALTH_URL = 'https://task-fpwj.onrender.com/';
 
 // Application State
 const state = {

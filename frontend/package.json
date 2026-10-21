@@ -2,7 +2,6 @@
   "name": "task-manager-frontend",
   "version": "1.0.0",
   "description": "TaskFlow frontend interface",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
