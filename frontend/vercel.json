@@ -1,0 +1,11 @@
+{
+  "buildCommand": "echo done",
+  "installCommand": "echo skip",
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,5 +1,11 @@
 {
   "buildCommand": "echo done",
   "installCommand": "echo skip",
-  "outputDirectory": "frontend"
+  "outputDirectory": "frontend",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
