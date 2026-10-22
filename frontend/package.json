@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "TaskFlow frontend interface",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
+    "start": "node dev-server.js",
+    "dev": "node dev-server.js",
     "build": "echo 'Static ready'"
   }
 }
